@@ -51,15 +51,8 @@ const Navbar = () => {
         </div>
       </nav>
       {
-        showCart && <motion.div 
-        transition={{
-          ease: "linear",
-          duration: 2,
-          x: { duration: 1 }
-        }}
-         >
+        showCart && 
           <Cart/>
-        </motion.div> 
       }
     </div>
   )
