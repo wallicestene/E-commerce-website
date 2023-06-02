@@ -3,12 +3,12 @@ import NavbarOptions from './NavbarOptions'
 import cart from "../images/icon-cart.svg"
 import profile from '../images/image-avatar.png'
 import menu from "../images/icon-menu.svg"
-import NavMobile from './navMobile'
+import NavMobile from './NavMobile1'
 import Cart from './Cart'
 import logo from "../images/logo.svg"
 import CartContext from '../CartContext'
 import { motion } from "framer-motion"
-const Navbar = () => {
+const Navbar1 = () => {
   const {items, amount, addedtoCart} =useContext(CartContext)
 
   const [isHidden, setIshidden] = useState(true)
@@ -58,4 +58,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default Navbar1

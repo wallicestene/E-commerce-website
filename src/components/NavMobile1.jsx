@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import NavbarOptions from './NavbarOptions'
 import close from "../images/icon-close.svg"
 
-const NavMobile = ({handleShow}) => {
+const NavMobile1 = ({handleShow}) => {
 
     const [show, setShow] = useState(true)
 
@@ -13,7 +13,7 @@ const NavMobile = ({handleShow}) => {
         <img src={close} alt="" className='w-5 mt-4 hover:cursor-pointer' onClick={handleShow}/>
             <div className="mt-10 flex flex-col justify-center">
               <ul>
-                <li className='li text-black'><NavbarOptions title = "Collections"/></li>
+                <li className='li'><NavbarOptions title = "Collections"/></li>
                 <li className='li'><NavbarOptions title = "Men"/></li>
                 <li className='li'><NavbarOptions title = "Women"/></li>
                 <li className='li'><NavbarOptions title = "About"/></li>
@@ -26,4 +26,4 @@ const NavMobile = ({handleShow}) => {
   )
 }
 
-export default NavMobile
+export default NavMobile1
