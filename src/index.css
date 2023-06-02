@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;1,200;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@200;300&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --Very-dark-blue:220, 13%, 13%;
+        --Dark-grayish-blue: 219, 9%, 45%;
+        --Grayish-blue:220, 14%, 75%;
+        --Light-grayish-blue: 223, 64%, 98%;
+        --White: 0, 0%, 100%;
+        --Orange:26, 100%, 55%;
+        --Pale-orange:25, 100%, 94%;
+      /* ... */
+    }
+  }
+.li{
+  @apply p-2 text-verydarkblue font-bold text-black
+}
